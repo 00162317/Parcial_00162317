@@ -1,0 +1,73 @@
+:root{
+    --variableUno:#f5f5f5;
+    --variableDos:rgba(245, 245, 245, 0.335);
+    --variableTres:#000000;
+    --variableCuatro:orange;
+    --variableCinco:'Monoton', cursive;
+}
+nav{
+    background-color:var(--variableTres);
+}
+.heads h1{
+    font-family: var(--variableCinco);
+}
+.nav-wrapper{
+    background-color:var(--variableTres);
+}
+.fondo{
+    background-image: url("img/image(1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fondo img{
+
+}
+.fondoDos{
+    background-image: url("img/contacus.jpg");
+    padding: 2em;
+}
+.card .card-image img{
+    height: 50%
+}
+.hola{
+    background: var(--variableDos);
+    border-radius: 4px;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding: 4em;
+    color: var(--variableUno);
+}
+.page-footer{
+    background-color: var(--variableTres);
+    padding: 2em;
+}
+.waves-effect{
+    width: 100%;
+}
+nav ul a{
+    padding: 0 12em;
+}
+.btn, .btn-large, .btn-small {
+    background-color: var(--variableCuatro);
+}
+.pads{
+    padding: 10em;
+}
+h1{
+    color: white;
+    font-family: 'Monoton', cursive;
+}
+pes p{
+    color: white;
+    font-family: 'Monoton', cursive;
+    font-size: 2em; 
+}
+.btn-floating {
+    background-color: transparent;
+    border:1px solid black;
+}
+.logos{
+    width: 8%;
+    height: 8%;
+}
